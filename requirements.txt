@@ -1,0 +1,29 @@
+# Core dependencies - All compatible versions
+streamlit==1.31.0
+langchain==0.2.16
+langchain-core==0.2.38
+langchain-google-genai==1.0.10
+langchain-community==0.2.16
+
+# MCP (Model Context Protocol) Support
+mcp>=1.0.0
+httpx-sse>=0.4.0
+
+# API and HTTP
+requests==2.31.0
+python-dotenv==1.0.0
+httpx>=0.27.0
+
+# Data processing
+pandas==2.2.0
+numpy==1.26.3
+
+# Date/Time handling
+python-dateutil==2.8.2
+
+# Pydantic (required for langchain)
+pydantic>=2.0.0,<3.0.0
+
+# Optional: for LLaMA-3 local support
+# transformers==4.36.2
+# torch==2.1.2

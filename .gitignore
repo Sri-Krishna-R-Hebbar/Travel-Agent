@@ -1,0 +1,37 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets (don't commit real secrets!)
+.streamlit/secrets.toml
+
+# Keep config but not secrets
+!.streamlit/config.toml
+
+# Logs
+*.log
+
+# Node modules (if any)
+node_modules/
+
+# Batch files (Windows specific)
+*.bat

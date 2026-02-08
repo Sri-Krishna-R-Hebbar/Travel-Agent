@@ -1,0 +1,4 @@
+# System packages required for Streamlit Cloud
+# Node.js is needed for MCP Weather Server
+nodejs
+npm
