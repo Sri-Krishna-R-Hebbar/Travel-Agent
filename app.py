@@ -10,6 +10,13 @@ import calendar
 # Add project root to path
 sys.path.insert(0, '.')
 
+# Install MCP Weather Server on first run (for Streamlit Cloud)
+try:
+    from install_mcp import install_mcp_weather_server
+    install_mcp_weather_server()
+except Exception as e:
+    print(f"⚠️  MCP installation check skipped: {e}")
+
 from agents.travel_agent import TravelPlanningAgent
 from utils.helpers import validate_inputs, get_month_name
 import config.settings as config
